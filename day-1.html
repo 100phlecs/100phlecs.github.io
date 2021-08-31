@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>100phlecs</title>
+    <link rel="stylesheet" href="lighting.css">
+    <meta charset="utf-8">
+    <style>
+
+    </style>
+  </head>
+  <body class="onyx">
+    <section class="grid">
+      <div class="grid-width-eight"></div>
+      <div class="grid-width-three">
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+      </div>
+    </section>
+    <section class="grid">
+      <div class="grid-width-eight"></div>
+      <div class="grid-width-three">
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+      </div>
+    </section>
+    <section class="grid">
+      <div class="grid-width-eight"></div>
+      <div class="grid-width-three">
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+      </div>
+    </section>
+    <section class="grid">
+      <div class="grid-width-eight"></div>
+      <div class="grid-width-three">
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+      </div>
+    </section>
+    <section class="grid">
+      <div class="grid-width-eight"></div>
+      <div class="grid-width-three">
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+      </div>
+    </section>
+    <section class="grid">
+      <div class="grid-width-eight"></div>
+      <div class="grid-width-three">
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin bold">_</p>
+      </div>
+    </section>
+    <section class="grid">
+      <div class="grid-width-eight"></div>
+      <div class="grid-width-three">
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin bold">_</p>
+      </div>
+    </section>
+    <section class="grid">
+      <div class="grid-width-eight"></div>
+      <div class="grid-width-three">
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin">_</p>
+        <p class="text-trim no-padding no-margin bold">_</p>
+      </div>
+    </section>
+    <script>
+      let just = document.querySelectorAll("p")
+      let distance = 40;
+      let colors = [
+        "none",
+        'second',
+        'third',
+        'fourth'
+      ]
+      let showing = "just_showing_up_".split('').reverse();
+      for (let i = 0; i < just.length; i++) {
+        console.log(distance*i, i, distance);
+        just[i].style.transform = `translate(-${distance*i}px)`
+        just[i].classList.add(`tetrad`, `${colors[i % 4]}`)
+        just[i].textContent = showing[i%showing.length];
+        just[i].classList.add("huge", "text-center")
+        just[i].style.color = "black";
+      }
+    </script>
+  </body>
+</html>
