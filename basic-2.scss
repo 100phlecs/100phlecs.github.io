@@ -1,0 +1,18 @@
+section:nth-child(1) {
+  max-width: 70rem;
+  * {
+    margin: auto;
+    max-width: 60ch;
+  }
+  * + * {
+    margin-top: 1rem;
+  }
+  h2, h1 {
+    text-align: center;
+  }
+}
+
+footer {
+ max-width: 70rem;
+ text-align: center;
+}

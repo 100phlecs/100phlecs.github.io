@@ -1,0 +1,20 @@
+section:nth-child(1) {
+  max-width: 70rem;
+}
+section:nth-child(1) * {
+  margin: auto;
+  max-width: 60ch;
+}
+section:nth-child(1) * + * {
+  margin-top: 1rem;
+}
+section:nth-child(1) h2, section:nth-child(1) h1 {
+  text-align: center;
+}
+
+footer {
+  max-width: 70rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=basic-2.css.map */
