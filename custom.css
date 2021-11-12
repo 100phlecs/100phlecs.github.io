@@ -1,15 +1,28 @@
 body {
     padding-left: 20ch;
-    max-width: 60ch;
+    max-width: 60ch;    
+}
+
+.title {
+    letter-spacing: .05rem;
 }
 
 p {
     letter-spacing: 0.1ch;
-    line-height: 1.3rem;
+    line-height: 1.4rem;
+    text-indent: 5ch;
 }
 .title + p {
-    padding-top: 2ch;
+    padding-top: 3ch;
     border-top: 0.1rem solid #454138;
+}
+p > img {
+    max-width: 100%;
+    margin: 0;
+}
+
+.figure p {
+    text-indent: 0;
 }
 
 @media (max-width: 80ch) { 
