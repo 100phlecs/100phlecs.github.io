@@ -1,0 +1,22 @@
+#+title: Learn, then grab tool
+
+There is always a new framework out there promising to solve
+everything for you. Usually it does a great job at delivering half of
+its value out of the box. The issue though is that often we're
+grabbing tools just because other people are.
+
+Soon enough a certain Tool is synonymous with a workflow, with getting
+things done... and if you don't use it, you're doing it wrong. This is
+a complete backwards approach. As any beginner, it's hard to use a
+tool effectively if you don't know what the original process is.
+
+And yet now we're spending time learning both the tool and the process
+instead of just trying out the process first and then drawing our
+conclusions. What works for other people won't necessarily work for
+you. For example, people love to ship off beginners to static site
+generators; why not give them first the opportunity to ask, "why?"
+
+So figure out the process, and then go find your tooling! That's what
+I'm doing at least. Otherwise you'll tire yourself out learning
+abstractions and Best Practices™ without ever understanding why it is
+so (or maybe why it should be no longer).

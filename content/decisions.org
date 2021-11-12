@@ -1,0 +1,66 @@
+#+title: Simple way to feel better
+
+Decisions, decisions... endless. The more you have, the more likely
+you fumble, let the days slink by and feel worse by the hour. If you
+want to fix that, then reduce! Reduce events, opinions, objects in
+your life. By reducing events, information, things, you will feel better
+and prepared to tackle the day.
+
+First on the list is events. This category could include obligations,
+movements, travels, activities. Everything that comes with a
+timeblock. Which creates anxiety, streches you thin, makes you more
+reactive instead of proactive, etc. Instead of wavering between all of
+them, I just choose carefully which ones leave me (hopefully)
+energized[fn:1]. 
+
+And to make sure they're good events, I don't commit to more than 3 at
+a time. For example, maybe I'll have an upcoming appointment to meet a
+friend, a project I need to start, and then I'm getting back into
+running. That's it. Any more and I'll be too scatteredbrain to create
+favorable outcomes for any of them. Of course, events that don't feel
+like timeblocks are fine to do i.e. reading a book you like.
+
+Second, information. Nowadays there's a continual torrent of it. The
+net is scary this way. There is just too much information. And whether
+you're conscious of it or not, you have to /decide/ every comment's
+worth. I would contend people are more influenced by pseudo-anonymous
+opinions online than their friends. Yet we all often disregard this
+fact. 
+
+#+begin_quote
+You have to /decide/ every comment's worth.
+#+end_quote
+
+The dirty secret is, realistically, most information you're glossing
+over isn't helping you out. At all. Knowing that a 3.4 earthquake just
+happened in the north district doesn't help. Nor seeing what random
+people are up to unless you're getting ideas from it. I limit
+information exposure by blocking YouTube sections or social sites,
+news sites, etc. with [[https://ublockorigin.com/][uBlock Origin]] and my [[https://github.com/StevenBlack/hosts][/etc/hosts file]]. This isn't
+to say that the internet is worthless: there are neat blogs waiting
+for you[fn:2].
+
+And finally, possessions. Virtual possessions too. All of the stuff
+you got and use adds to decision fatigue. How many items do you rely
+on? What are you spending your money on? How many points of failure do
+you have? It's a big category. You can clean up by reducing clutter,
+reducing products, reducing software, reducing miscellaneous bookshelf
+sitters. What you read, how you perform tasks. The less things there
+are, the less steps needed to perform, the less you need to keep track
+of, and the less wavering there is. No more decisions!
+
+If you begin to tackle just one of these categories you will feel
+better. The keyword is begin: it's a continual shed. It's not a
+one-and-done. Just taking 20 minutes every couple of days to reduce
+one of these vectors is all it takes to start getting your
+dividends. I hope these categories help you notice what may be out of
+control for you.
+
+
+
+* Footnotes
+[fn:1]  There are only so many events that energize me. If possible, I
+prefer zero timeblocks. 
+
+[fn:2] Although I'm avoiding most media at the moment, I do hope to have
+a nice [[https://en.wikipedia.org/wiki/RSS][RSS]] feed someday. Blogs are the bastion of quality content.

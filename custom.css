@@ -1,0 +1,47 @@
+body {
+    padding-left: 20ch;
+    max-width: 60ch;
+}
+
+p {
+    letter-spacing: 0.1ch;
+    line-height: 1.3rem;
+}
+.title + p {
+    padding-top: 2ch;
+    border-top: 0.1rem solid #454138;
+}
+
+@media (max-width: 80ch) { 
+    body {
+        padding-left: 0;
+    }
+}
+
+blockquote {
+  margin-left: 1.5rem;
+  font-weight: bolder;
+  margin-right: 0px;
+  padding-left: 0.1em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  padding-right: 0.8em;
+}
+
+blockquote p {
+  margin-bottom: 0; }
+
+
+#postamble {
+    padding-top: 6px;
+    margin-top: 4px;
+    border-top: 0.1rem solid #454138;
+}
+
+#postamble p {
+    margin-left: auto;
+}
+
+.footnotes {
+    padding: 6px 0 4px 0;
+}
