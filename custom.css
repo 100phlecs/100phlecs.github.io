@@ -12,6 +12,7 @@ a {
     color: #748CAB;
     transition: 0.3s;
 }
+
 a:hover {
     color: #D81159;
 }
@@ -21,12 +22,12 @@ a:hover {
 }
 
 .content > p + p {
-    margin-top: 3rem;
+    margin-top: 3ch;
 }
 
 p {
     line-height: 1.5rem;
-    font-size: 1.3rem;
+    font-size: 1.15rem;
     margin: 0 0 3ch 0;
 }
 
@@ -37,10 +38,12 @@ p {
 .footnum {
     font-size: 1.0rem;
 }
+
 .title + p {
     padding-top: 3ch;
     border-top: 0.1rem solid #454138;
 }
+
 p > img {
     max-width: 100%;
     margin: 3rem 0 3rem 0;
