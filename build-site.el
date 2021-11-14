@@ -19,8 +19,8 @@
       org-html-container-element "section"
       org-html-head "
 <link rel=\"stylesheet\" href=\"../normalize.css\">
-<link rel=\"stylesheet\" href=\"../yorha.min.css\">
 <link rel=\"stylesheet\" href=\"../custom.css\">
+<link rel=\"stylesheet\" href=\"../iosevka-curly.css\">
 "
 )
 

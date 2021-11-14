@@ -1,16 +1,41 @@
 body {
     padding-left: 20ch;
-    max-width: 60ch;    
+    max-width: 80ch;
+    font-family: Iosevka Curly Web, helvetica, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0;
+    background-color: #d1cdb7;
+    color: #454138;
+}
+
+a {
+    color: #748CAB;
+    transition: 0.3s;
+}
+a:hover {
+    color: #D81159;
 }
 
 .title {
     letter-spacing: .05rem;
 }
 
+.content > p + p {
+    margin-top: 3rem;
+}
+
 p {
-    letter-spacing: 0.1ch;
-    line-height: 1.4rem;
-    text-indent: 5ch;
+    line-height: 1.5rem;
+    font-size: 1.3rem;
+    margin: 0 0 3ch 0;
+}
+
+#footnotes {
+    margin-top: 3rem;
+}
+
+.footnum {
+    font-size: 1.0rem;
 }
 .title + p {
     padding-top: 3ch;
@@ -18,16 +43,13 @@ p {
 }
 p > img {
     max-width: 100%;
-    margin: 0;
-}
-
-.figure p {
-    text-indent: 0;
+    margin: 3rem 0 3rem 0;
 }
 
 @media (max-width: 80ch) { 
     body {
-        padding-left: 0;
+        padding-left: 2ch;
+        padding-right: 2ch;
     }
 }
 
@@ -51,10 +73,40 @@ blockquote p {
     border-top: 0.1rem solid #454138;
 }
 
+.fleuron {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    
+}
+
 #postamble p {
     margin-left: auto;
 }
 
-.footnotes {
+h2 {
     padding: 6px 0 4px 0;
+}
+
+i {
+    font-family: Iosevka Curly Web Oblique;
+}
+
+b, strong {
+    font-weight: 700;
+}
+blockquote {
+  position: relative;
+  padding: 1.5rem;
+}
+blockquote:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -1.5rem;
+  bottom: 0;
+  height: 100%;
+  width: 0.3rem;
+  border: solid #bab5a1;
+  border-width: 0 0.2rem 0 0.6rem;
 }
