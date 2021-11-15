@@ -2,7 +2,7 @@
   :version "0.1.0"
   :author ""
   :license ""
-  :depends-on ("#:spinneret")
+  :depends-on (:spinneret)
   :components ((:module "src"
                 :components
                 ((:file "main"))))
@@ -12,9 +12,9 @@
 (defsystem "100phlecs/tests"
   :author ""
   :license ""
-  :depends-on ("#:100phlecs"
-               "#:rove"
-               "#:spinneret")
+  :depends-on ( :100phlecs
+                :rove
+                :spinneret)
   :components ((:module "tests"
                 :components
                 ((:file "main"))))

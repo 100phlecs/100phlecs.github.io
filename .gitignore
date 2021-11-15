@@ -7,3 +7,6 @@
 *.x86f
 *~
 .#*
+**/drafts/**
+.DS_Store
+*-test*

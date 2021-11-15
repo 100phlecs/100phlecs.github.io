@@ -2,6 +2,11 @@
   (:use :cl))
 (in-package :100phlecs)
 
+(defun component-test ()
+  (spinneret:with-html
+    (:p (:span "hello"))
+    (:p (:span "hello"))))
+(component-test)
 
 (defun phl-index ()
   (spinneret:with-html-string
@@ -23,24 +28,50 @@
       (:head
        (:title ,title)
        (:meta :attrs (list :name "viewport"  :content "width=device-width, initial-scale=1"))
+       (:link :attrs (list :rel "stylesheet"  :href "normalize.css"))
        (:link :attrs (list :rel "stylesheet"  :href "custom.css"))
        (:link :attrs (list :rel "stylesheet"  :href "iosevka-curly.css")))
       (:body ,@body))))
 
 (defun index-html () 
   (with-page (:title "100phlecs")
-    (:h1 "Hello test")))
-
-(write-html "~/repos/100phlecs/index-test.html" (funcall 'index-html))
-
-(defun component-test ()
-  (spinneret:with-html
-    (:p (:span "hello"))))
-(component-test)
+    (:h1 "Thoughts")
+    (:ul
+     (li-from-list
+      (funcall 'list-thoughts)))
+    (:footer "100phlecs")))
 
 (defun write-html (filename content)
   (with-open-file (out filename
                        :direction :output
                        :if-exists :supersede)
     (write-sequence content out)))
+
+(defun li-from-list (my-list)
+  (spinneret:with-html
+    (:ul
+     (dolist (filename my-list)
+       (:li
+        (:a :href
+            (uiop:strcat "thoughts/" filename)
+            (get-friendly-title filename)))))))
+;; * TODO read the top of the org file.
+;;  also find better integration w/ org from cl
+(setf friendly-title-pairs
+      '(("decisions.html" "A path to calm")
+        ("grab.html" "Learn before tooling")))
+
+(defun get-friendly-title (html-file)
+  (second (find-if #'(lambda (pair)
+                       (equal html-file (first pair))) friendly-title-pairs)))
+
+(defun do-li (a-list)
+  (spinneret:with-html
+    (dolist (filename a-list)
+      (:p filename))))
+
+(defun list-thoughts ()
+  (mapcar 'file-namestring (directory "../thoughts/*.html")))
+
+(write-html "~/common-lisp/100phlecs/index.html" (funcall 'index-html))
 
