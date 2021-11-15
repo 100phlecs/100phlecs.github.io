@@ -9,7 +9,7 @@ body {
 }
 
 ul {
-    padding-left: 1.2ch;
+    padding-left: 2ch;
 }
 
 li {
@@ -60,13 +60,15 @@ p {
 
 p > img {
     max-width: 100%;
-    margin: 3rem 0 3rem 0;
 }
 
 @media (max-width: 80ch) { 
     body {
         padding-left: 2ch;
         padding-right: 2ch;
+    }
+    #postamble {
+        flex-direction: column;
     }
 }
 
@@ -85,20 +87,25 @@ blockquote p {
 
 
 #postamble {
+    display: flex;
+    justify-content: space-between;
     padding-top: 6px;
     margin-top: 4px;
     border-top: 0.1rem solid #454138;
 }
 
+#postamble p {
+    margin: 0;
+}
+
+.creator {
+    text-align: right;
+}
+
 .fleuron {
     text-align: center;
     font-size: 3rem;
-    margin: 0;
-    
-}
-
-#postamble p {
-    margin-left: auto;
+    margin: 0; 
 }
 
 h2 {

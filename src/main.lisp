@@ -36,9 +36,8 @@
 (defun index-html () 
   (with-page (:title "100phlecs")
     (:h1 "Thoughts")
-    (:ul
-     (li-from-list
-      (funcall 'list-thoughts)))
+    (li-from-list
+     (funcall 'list-thoughts))
     (:footer "100phlecs")))
 
 (defun write-html (filename content)
@@ -59,7 +58,8 @@
 ;;  also find better integration w/ org from cl
 (setf friendly-title-pairs
       '(("decisions.html" "A path to calm")
-        ("grab.html" "Learn before tooling")))
+        ("grab.html" "Learn before tooling")
+        ("rose-tinted.html" "Rose-colored software")))
 
 (defun get-friendly-title (html-file)
   (second (find-if #'(lambda (pair)

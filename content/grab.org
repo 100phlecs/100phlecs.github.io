@@ -1,5 +1,5 @@
 #+title: Learn before tooling
-
+#+date: 9-17-21 
 There is always a new framework out there promising to solve
 everything for you. Usually it does a great job at delivering half of
 its value out of the box. The issue though is that often we're

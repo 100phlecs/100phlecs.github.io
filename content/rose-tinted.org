@@ -1,0 +1,18 @@
+#+title: Rose-colored software
+#+date: 11-15-21
+
+On a lazy day you may scroll through nascent projects and each is just
+/drenched/ with ambition. You look at the screenshots, become more
+convinced of *something...* whatever that something is. It's great. It
+is. Exciting to make a difference. There's always the great work to be
+done.
+
+So you may try out their next-generation forward-thinking
+game-changing technology. Tune your senses to the nirvana waiting with
+pure functional codebases. It even comes with swag! But if
+you take two steps back -- I mean, when I at least take a couple steps
+back, something dawns on me.
+
+I don't /need/ this at all. None of it.
+
+What are you even doing on the computer? 

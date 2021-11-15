@@ -1,5 +1,5 @@
 #+title: A Path to Calm
-
+#+date: 10-06-21 (edit 11-15-21)
 
 Decisions, decisions... endless. The more choices you have to make,
 the more foggy you will be. And tired. And that'll translate to wasted
@@ -11,15 +11,14 @@ and things, you will regain your composure.
 
 [[file:../assets/decisions.png]]
 
-First on the list is events. This category could include social
-obligations, new projects, travels. Every event comes with a bag of
-decisions; what to wear, when to leave, how to get there, what to eat,
-what to omit, how to begin, what tools, etc. I'm sure most have
-experienced the hour slump that pads meetings. Or difficulties
-starting a project. So, since they're difficult, instead of letting
-them stack up and take away my calm, I just choose a few carefully. I
-choose on the criteria of how much energy is burnt in exchange for
-benefits.[fn:1]
+First, events. This category could include social obligations, new
+projects, travels. Every event comes with a bag of decisions; what to
+wear, when to leave, how to get there, what to eat, what to omit, how
+to begin, what tools, etc. I'm sure most have experienced the hour
+slump that pads meetings. Or such difficulties starting a project. So,
+since they're difficult, instead of letting them stack up and take
+away my calm, I just choose a few carefully. I choose on the criteria
+of how much energy is burnt in exchange for benefits.[fn:1]
 
 Second, information. Endless information.  The net is scary this way.
 Whether you're conscious of it or not, you have to /decide/ every
@@ -57,18 +56,21 @@ of control for you.
 
 * Footnotes
 
-[fn:1]  There are only so many events that energize me. Most events
-are an investment of energy for later returns. If possible, I prefer
-zero timeblocks. To where whatever activity I'm doing feels natural to
-me, like reading. Of course, events that don't feel like timeblocks
-are fine i.e. reading a book you like, or being quite deep into a
-project.
+[fn:1]  There is always some sort of exchange made, I find. Energy is
+the currency. We sometimes get trapped in spending all of our energy
+to regain our energy! Tricky. The ones with the /best/ returns are
+usually the hard ones. [[https://www.youtube.com/watch?v=iGLzWdT7vGc&t=1795s][The scary boring ones (transcript in description)]]. Although they may not be enjoyable initially, they're
+necessary if you want to add color and calm. You reap what you
+sow. Still, my ideal state has zero timeblocks. I just try to plant
+and water the necessary energy seeds and go on about as usual. Let's
+get back to where whatever activity feels natural. I suppose you could
+just call those acitivites "habits".
 
 [fn:2] Although I'm avoiding most media at the moment, I do hope to
-get back into [[https://en.wikipedia.org/wiki/RSS][RSS]] someday. Blogs are the bastion of quality
+get back into [[https://en.wikipedia.org/wiki/RSS][RSS]] someday. Blogs are a bastion of quality
 content.
 
-[fn:3]  It may not warrant example, physical cleaning is
+[fn:3]  It may not warrant example, but physical cleaning is
 /hard/. If you feel overwhelmed and need pointers, I would recommend
 [[https://www.amazon.com/Tidying-Marie-Kondo-Collection-Life-Changing/dp/1984857932][Marie Kondo's book]] -- it's quite popular.
 
