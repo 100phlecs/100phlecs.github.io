@@ -9,13 +9,12 @@ body {
 }
 
 ul {
-    padding-left: 2ch;
+    padding-left: 2.3ch;
 }
 
 li {
     padding-left: 1ch;
     font-size: 1.2rem;
-
 }
 
 ::marker {
