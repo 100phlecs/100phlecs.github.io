@@ -10,7 +10,7 @@ instead of remembering the keys of the C# scale, one just looks up the
 scale online again.
 
 #+attr_html: :style width: 50% 
-[[file:~/common-lisp/100phlecs/assets/shallows.jpeg]]
+[[file:../assets/shallows.jpeg]]
 
 At first glance I didn't consider this much of an issue. Things are
 moving fast, so there's no need to store it all in your head. There's
@@ -52,7 +52,7 @@ worse). How can you get anything done at this rate?  You're likely
 wasting more time compared to sitting down and paying close attention.
 
 #+attr_html: :style border-radius: 20px;
-[[file:~/common-lisp/100phlecs/assets/remember.png]]
+[[file:../assets/remember.png]]
 
 
 
