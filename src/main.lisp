@@ -59,7 +59,8 @@
 (setf friendly-title-pairs
       '(("decisions.html" "A path to calm")
         ("grab.html" "Learn before tooling")
-        ("rose-tinted.html" "Rose-colored software")))
+        ("rose-tinted.html" "Rose-colored software")
+        ("local-knowledge.html" "Losing your mind")))
 
 (defun get-friendly-title (html-file)
   (second (find-if #'(lambda (pair)
@@ -72,6 +73,7 @@
 
 (defun list-thoughts ()
   (mapcar 'file-namestring (directory "../thoughts/*.html")))
+(list-thoughts)
 
 (write-html "~/common-lisp/100phlecs/index.html" (funcall 'index-html))
 

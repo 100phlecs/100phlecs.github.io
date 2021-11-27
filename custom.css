@@ -57,6 +57,9 @@ p {
     border-top: 0.1rem solid #454138;
 }
 
+.figure > p {
+    text-align: center;
+}
 p > img {
     max-width: 100%;
 }
@@ -73,7 +76,6 @@ p > img {
 
 blockquote {
   margin-left: 1.5rem;
-  font-weight: bolder;
   margin-right: 0px;
   padding-left: 0.1em;
   padding-top: 0.8em;
@@ -82,7 +84,10 @@ blockquote {
 }
 
 blockquote p {
-  margin-bottom: 0; }
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
 
 
 #postamble {
