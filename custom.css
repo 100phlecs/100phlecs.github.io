@@ -8,6 +8,10 @@ body {
     color: #454138;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 ul {
     padding-left: 2.3ch;
 }

@@ -60,7 +60,7 @@
       '(("decisions.html" "A path to calm")
         ("grab.html" "Learn before tooling")
         ("rose-tinted.html" "Rose-colored software")
-        ("local-knowledge.html" "Losing yourf mind")
+        ("local-knowledge.html" "Losing your mind")
         ("sludge.html" "Sludge and oil")))
 
 (defun get-friendly-title (html-file)
