@@ -56,11 +56,12 @@
             (get-friendly-title filename)))))))
 ;; * TODO read the top of the org file.
 ;;  also find better integration w/ org from cl
-(setf friendly-title-pairs
+(defparameter friendly-title-pairs
       '(("decisions.html" "A path to calm")
         ("grab.html" "Learn before tooling")
         ("rose-tinted.html" "Rose-colored software")
-        ("local-knowledge.html" "Losing your mind")))
+        ("local-knowledge.html" "Losing yourf mind")
+        ("sludge.html" "Sludge and oil")))
 
 (defun get-friendly-title (html-file)
   (second (find-if #'(lambda (pair)
