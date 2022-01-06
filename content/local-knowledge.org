@@ -7,7 +7,7 @@ Shallows/ by Nicholas Carr describes a transformative process our
 brains are going through. Instead of being the reservoir of
 knowledge, our brains are turning into indexes. So, for example,
 instead of remembering the keys of the C# scale, one just looks up the
-scale online again.
+scale online again. 
 
 #+attr_html: :style width: 50% 
 [[file:../assets/shallows.jpeg]]
@@ -22,9 +22,9 @@ By *vacuous* I mean that, although you've amassed a bundle of reliable
 search terms, there's no knowledge coming from you. You just become an
 extension of the Internet. How uncomfortable a thought that is! To be
 only a smorgasboard of links. The best way to make knowledge yours is
-to sincerely make it yours: put it in your own words or branch off of
-what you learned. You can't if it's not stored in your mind... or you
-aren't properly learning.
+to sincerely make it yours: put it in your own words or branch off
+from what you learned. You can't if it's not stored in your mind...
+you aren't properly learning.
 
 #+begin_quote
 You just become an extension of the internet.

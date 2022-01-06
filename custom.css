@@ -13,17 +13,19 @@ body {
 }
 
 ul {
-    padding-left: 2.3ch;
+    padding-left: 0ch;
+    list-style-type: none;
 }
 
 li {
-    padding-left: 1ch;
+    padding-left: 0.5ch;
     font-size: 1.2rem;
 }
 
-::marker {
-    content: '❧';
+footer {
+    padding-top: 1ch;
 }
+
 
 a {
     color: #748CAB;
@@ -34,31 +36,35 @@ a:hover {
     color: #D81159;
 }
 
-.title {
-    letter-spacing: .05rem;
+.content > p + p {
+    margin-top: 1.5ch;
 }
 
-.content > p + p {
-    margin-top: 3ch;
-}
+
 
 p {
     line-height: 1.5rem;
     font-size: 1.15rem;
-    margin: 0 0 3ch 0;
 }
 
 #footnotes {
     margin-top: 3rem;
 }
 
+.footpara {
+    margin-top: 0ch;
+}
+
 .footnum {
     font-size: 1.0rem;
 }
 
-.title + p {
-    padding-top: 3ch;
-    border-top: 0.1rem solid #454138;
+.footdef {
+    margin-bottom: 4ch;
+}
+
+.title {
+     border-bottom: 0.1rem solid #454138;
 }
 
 .figure > p {
@@ -88,9 +94,10 @@ blockquote {
 }
 
 blockquote p {
-    font-weight: 700;
+    
     font-size: 1.5em;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 
@@ -129,7 +136,8 @@ b, strong {
 }
 blockquote {
   position: relative;
-  padding: 1.5rem;
+  padding: 1.2rem;
+  padding-left: 0.3rem;
 }
 blockquote:before {
   content: '';
@@ -139,6 +147,6 @@ blockquote:before {
   bottom: 0;
   height: 100%;
   width: 0.3rem;
-  border: solid #bab5a1;
+  border: solid #867e6c;
   border-width: 0 0.2rem 0 0.6rem;
 }

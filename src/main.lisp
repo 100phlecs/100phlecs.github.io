@@ -35,11 +35,12 @@
 
 (defun index-html () 
   (with-page (:title "100phlecs")
-    (:h1 "Thoughts")
-    (li-from-list
-     (funcall 'list-thoughts))
-    (:footer "100phlecs")))
+             (:h1 "Thoughts")
+             (li-from-list
+              (funcall 'list-thoughts))
+             (:footer "100phlecs")))
 
+(index-html)
 (defun write-html (filename content)
   (with-open-file (out filename
                        :direction :output
@@ -61,7 +62,8 @@
         ("grab.html" "Learn before tooling")
         ("rose-tinted.html" "Rose-colored software")
         ("local-knowledge.html" "Losing your mind")
-        ("sludge.html" "Sludge and oil")))
+        ("sludge.html" "Sludge and oil")
+        ("quotes.html" "Fond quotes")))
 
 (defun get-friendly-title (html-file)
   (second (find-if #'(lambda (pair)
@@ -75,6 +77,8 @@
 (defun list-thoughts ()
   (mapcar 'file-namestring (directory "../thoughts/*.html")))
 (list-thoughts)
+
+
 
 (write-html "~/common-lisp/100phlecs/index.html" (funcall 'index-html))
 
