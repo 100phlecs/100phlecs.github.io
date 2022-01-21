@@ -37,7 +37,7 @@
   (with-page (:title "100phlecs")
              (:h1 "Thoughts")
              (li-from-list
-              (funcall 'list-thoughts))
+              (list-thoughts))
              (:footer "100phlecs")))
 
 (index-html)

@@ -2,7 +2,7 @@
 #+date: 11-26-21
 
 
-Within this pursuit to [[file:~/common-lisp/100phlecs/thoughts/decisions.html][reduce]] I've been chewing on a theory. /The
+Within this pursuit to [[file:decisions.org][reduce]] I've been chewing on a theory. /The
 Shallows/ by Nicholas Carr describes a transformative process our
 brains are going through. Instead of being the reservoir of
 knowledge, our brains are turning into indexes. So, for example,
