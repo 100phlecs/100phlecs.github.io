@@ -148,6 +148,10 @@ blockquote {
   padding: 0 0 0 1rem
 }
 
+p, figure {
+  margin-top: 35px;
+}
+
 textarea {
   border: 2px dotted;
   outline: 0;
@@ -170,6 +174,15 @@ img {
   margin-top: 20px;
   border-radius: 15px
 }
+figcaption {
+  max-width: 90%;
+  text-align: center;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: .2rem;
+}
 
 pre {
   border: 1px solid var(--fgColor);
@@ -181,7 +194,7 @@ pre {
 p code,
 li code,
 div code {
-  padding: 0 .2rem 0 .2rem;
+  padding: .1rem .4rem .1rem .4rem;
   border-radius: .3rem;
   color: var(--bgColor);
   background-color: var(--fgColor);
@@ -221,6 +234,10 @@ td,
 th {
   padding: .5rem;
   border: dashed .1rem var(--metaColor)
+}
+
+em {
+  color: var(--metaColor)
 }
 
 footer {
@@ -294,7 +311,9 @@ textarea {
   display: block
 }
 
-.tagsData {
+p.tagsData {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -308,9 +327,19 @@ textarea {
 }
 
 .footnote-definition {
-  margin: 0 0 0 2rem;
+  padding-top: 80px;
+  position: relative;
 }
 
+.footnote-definition::before {
+  content: '❦';
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 40px;
+}
 .footnote-definition-label {
   color: var(--metaColor);
 }
