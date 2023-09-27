@@ -4,7 +4,7 @@ title = 'How I deal with QWERTY'
 
 With a little bit of research you won't be surprised to find the QWERTY layout is inefficient. A knee-jerk reaction would be to learn an alternative layout, which I did to some extent. But then one will inevitably discover all of the other inefficiencies attached to keyboard design. And the exhaustion found in "catching up" toward nowhere.
 
-I bought new keyboards, optimized my layouts further, introduced different "layers" the same way the `Shift` key is a layer for capitals. Though in the name of preventing hand injury, how myopic was the conclusion. Here I was diligently practicing a skill I technically already had, just under new terms, for the marginal gain of typing either quicker or less strenuously. I've since given up (almost) entirely on the ordeal. Here is my Atreus keyboard which is collecting dust.
+I bought new keyboards, optimized my layouts further, introduced different "layers" the same way the `Shift` key is a layer for capitals. Though in the name of preventing hand injury, how the time adds up toward little profit. Here I was diligently practicing a skill I technically already had, just under new terms, for the marginal gain of typing either quicker or less strenuously. I've since given up (almost) entirely on the ordeal. Here is my Atreus keyboard which is collecting dust.
 
 
 <figure>
@@ -36,6 +36,12 @@ If they are tapped, however:
 2. `Caps Lock` -> `Esc`
 
 I often program in [Snake case](https://en.wikipedia.org/wiki/Snake_case) languages. Pressing shift and reaching for `_` gets old and causes strain. Having easy access to underscore with a thumb press feels natural, like pressing the space bar, and has made programming far easier on me.
+
+
+<figure>
+  <img src="/images/keyboard.png" alt="current keyboard"/>
+  <figcaption>My current keyboard. Chosen because it just works and is small.</figcaption>
+</figure>
 
 A caveat to these dual-mappings is accidental mix-ups between the underscore and the control. When I write too quickly, my intended underscore may register as a Control instead, and therefore trigger an Emacs command (i.e. ctrl+a). 
 
