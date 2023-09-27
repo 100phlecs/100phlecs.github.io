@@ -39,6 +39,17 @@ I often program in [Snake case](https://en.wikipedia.org/wiki/Snake_case) langua
 
 A caveat to these dual-mappings is accidental mix-ups between the underscore and the control. When I write too quickly, my intended underscore may register as a Control instead, and therefore trigger an Emacs command (i.e. ctrl+a). 
 
-Sometimes there are inefficiencies that you will accept because the alternatives are too complex to bother with and/or setup. This is precisely why I quit using Emacs, too.
+Sometimes there are inefficiencies that you will accept because the alternatives are too complex to bother with and/or setup. This is precisely why I quit using Emacs. As well as NeoVim. I've forever cemented myself as a plebeian to the Config Confederation and may no longer participate in the round table of plugins. 
+
+As a trade off, I only have a few conceptual dotfiles to take along with me. 
+Emacs keybindings, some key mappings, and that's it. 
+Shouldn't take too much to configure a new computer from scratch.
+
+It's a central question really: _is customization worth the time?_
+
+My answer: _in small doses._
+
+You have my answer, and you are entirely welcome to yours. 
+
 
 [^1]: `Hyper` is a combination of modifier keys on MacOS. My Hyper is defined as `Option`, `Command`, and `Shift` pressed at the same time. The official `Hyper` definition includes the `Control` key too. I forgot why I removed `Control` from the definition. Vaguely recall that it was due to some conflict with native MacOS keybindings.
