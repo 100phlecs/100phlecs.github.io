@@ -2,7 +2,7 @@
 title = 'How I deal with QWERTY'
 +++
 
-With a little bit of research you won't be surprised to find the QWERTY layout is inefficient. A knee-jerk reaction would be to learn an alternative layout, which I did to some extent. But then one will inevitably discover all of the other inefficiencies attached to keyboard design. And the exhaustion found in "catching up" toward nowhere.
+With a bit of research you won't be surprised to find the QWERTY layout is inefficient. A knee-jerk reaction would be to learn an alternative layout, which I did to some extent. But then one will inevitably discover all of the other inefficiencies attached to keyboard design. And the exhaustion found in "catching up" toward nowhere.
 
 I bought new keyboards, optimized my layouts further, introduced different "layers" the same way the `Shift` key is a layer for capitals. Though in the name of preventing hand injury, how the time adds up toward little profit. Here I was diligently practicing a skill I technically already had, just under new terms, for the marginal gain of typing either quicker or less strenuously. I've since given up (almost) entirely on the ordeal. Here is my Atreus keyboard which is collecting dust.
 
@@ -13,7 +13,7 @@ I bought new keyboards, optimized my layouts further, introduced different "laye
 </figure>
 
 
-One could critique the way in which I approached it all–I completely agree. I fell into the trap anyone does when they begin to question The Defaults: _the endless alternatives and the quest to find the perfect one_. Which is positively overwhelming if you give it enough contemplation. One may find some similarity in the equally nauseating quest of finding the "perfect" stack. 
+One could critique the way in which I approached it all–I completely agree. I fell into the trap anyone does when they begin to question The Defaults: _the endless alternatives and the quest to find the perfect one_. It's overwhelming. One may find some similarity in the equally nauseating quest of finding the "perfect" stack. 
 
 If you enjoy such quests, then you have much to look forward to with computers and keyboards. But if you're in the no-fun zone like me, or a no-fun zoner in denial (there are many), such quests only serve to frustrate and distract from more interesting stuff. Like actually writing posts or software.
 
