@@ -27,7 +27,7 @@ Pretty complicated...
 
 Reality is that, since the `class` attribute within a Phoenix template can hold any valid Elixir expression, this isn't sustainable. The solution is to use the Phoenix tokenizers and handle the AST representation of each `class`.
 
-So I took the time and converted the library over to use the Phoenix tokenizers. It's a lot simpler, but I wouldn't entirely attribute it to the different approach. After programming in Elixir for awhile, I found some of my previous easier to clean up.
+So I took the time and converted the library over to use the Phoenix tokenizers. It's a lot simpler, but I wouldn't entirely attribute it to the different approach. After programming in Elixir for awhile, I found some of my previous code easier to clean up.
 
 Here's the new entry point of the plugin:
 
@@ -90,7 +90,7 @@ end
 This was poorly written, and was written by me. You can reduce this down to:
 
 ```elixir
-Enum.sort_by(base_classes, &class_position/1)_
+Enum.sort_by(base_classes, &class_position/1)
 ```
 
 I'm not sure why I thought I had to explicitly store the position of the class in order to sort it. But it isn't needed at all.
@@ -229,12 +229,12 @@ In conclusion, the old approach was messy regex and substitutions. The new versi
 1. Parse the tree using Phoenix tokenizer
 2. Grab all class attributes
 3. For class attributes that are strings, pass to `sort()`
-4. For class attributes that are expressions, evaluate it and handle each expression type.
-5. Render the new sorted string, but substitute it back into the contents.
+4. For class attributes that are expressions, transform to AST and handle each expression type.
+5. Render the new sorted string, and substitute it back into the contents.
 
 Expression types can be concatenations (`<>`) or interpolations (`#{@active}`). Arrays too (which I've yet to add support for, but it's coming up now that there's an AST to work with).
 
-Some of the expression class code is a little complicated. 
+Some of the expression `class` code is a little complicated. 
 I imagine in time there can be another blog post like this that points out inefficiencies.
 
 Besides support for arrays, I also want to support the `tailwind.config.js` file of the project. Not sure yet how to execute the JS code that extracts the classes from it. Will see.
