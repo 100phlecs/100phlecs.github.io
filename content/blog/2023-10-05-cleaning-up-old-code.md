@@ -2,7 +2,7 @@
 title = 'Cleaning up old Elixir code'
 +++
 
-It's been awhile since I last looked at the `TailwindFormatter` library.
+It's been awhile since I last looked at the [`TailwindFormatter`](https://github.com/100phlecs/tailwind_formatter) library.
 
 `TailwindFormatter` is a [Mix Format](https://hexdocs.pm/mix/main/Mix.Tasks.Format.html#module-plugins) extension to sort TailwindCSS classes with a few divergences. 
 
@@ -238,8 +238,6 @@ Some of the expression `class` code is a little complicated.
 I imagine in time there can be another blog post like this that points out inefficiencies.
 
 Besides support for arrays, I also want to support the `tailwind.config.js` file of the project. Not sure yet how to execute the JS code that extracts the classes from it. Will see.
-
-Feel free to check out [the repository](https://github.com/100phlecs/tailwind_formatter).
 
 Maintenance work can sometimes be grueling, but also satisfying too.
 
