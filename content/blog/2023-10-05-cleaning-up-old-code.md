@@ -51,9 +51,18 @@ Here's the new entry point of the plugin:
   end
   ```
 
-`sort_classes` goes more into the AST stuff which I won't go through. What it does is that it handles things like `grid-cols-#{@num}` or `#{if @active, do: "bg-red-50", else: "hidden"}` and `"h-6 " <> if @active, do: "font-bold"`. Elixir expressions.
+`sort_classes` goes more into the AST stuff which I won't go through. What it does is that it handles things like:
+```elixir
+<div class={"grid-cols-#{@num}-custom #{if @active, do: "bg-red-50", else: "hidden"} h-6 " <> if @active, do: "font-bold"} />
+```
 
-Instead, let's go to the part where it sorts the `class` string, something like `h-8 w-8 bg-slate-500 md:w-16 md:h-12 lg:flex`.
+Elixir expressions.
+
+Instead, let's go to the part where it sorts the `class` string, something like:
+
+```html
+<div class="h-8 w-8 bg-slate-500 md:w-16 md:h-12 lg:flex"></div>
+```
 
 Here's the previous `sort` function entry point:
 
