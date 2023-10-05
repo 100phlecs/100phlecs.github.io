@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="robots" content="index, follow">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<title>How I deal with QWERTY</title>
+
+
+
+<meta name="title" content="How I deal with QWERTY">
+
+
+<meta name="author" content="phil">
+
+
+<meta name="description" content="rantbox">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://100phlecs.github.io/blog/custom-macos-keys/">
+
+<meta property="og:site_name" content="">
+
+
+<meta property="og:title" content="How I deal with QWERTY">
+
+
+<meta property="og:description" content="rantbox">
+
+
+<meta property="og:image" content="https:&#x2F;&#x2F;100phlecs.github.io&#x2F;favicon.ico">
+
+
+
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://100phlecs.github.io/blog/custom-macos-keys/">
+
+<meta property="twitter:title" content="How I deal with QWERTY">
+
+
+<meta property="twitter:description" content="rantbox">
+
+
+<meta property="twitter:image" content="https:&#x2F;&#x2F;100phlecs.github.io&#x2F;favicon.ico">
+
+
+<link rel="canonical" href="https://100phlecs.github.io/blog/custom-macos-keys/">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://100phlecs.github.io/favicon.ico">
+
+
+
+
+<link rel="alternate" type="application/atom+xml" title="RSS" href="https://100phlecs.github.io/atom.xml"> 
+
+
+
+<link rel="stylesheet" href="https://100phlecs.github.io/style.css"/>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        
+<nav class="navBar">
+  
+  
+  
+  <a href="https://100phlecs.github.io" >&#x2F;home&#x2F;</a>
+  
+  
+  
+  
+  <a href="https://100phlecs.github.io/journal" >&#x2F;journal&#x2F;</a>
+  
+  
+  
+  
+  <a href="https://100phlecs.github.io/blog" >&#x2F;blog&#x2F;</a>
+  
+  
+  <div class="themeSwitch">
+    <button class="themeButton light" onclick="setTheme('light')" title="Light mode"><svg class="icons icons__background"><use href="https://100phlecs.github.io/icons.svg#lightMode"></use></svg></button>
+    <button class="themeButton dark" onclick="setTheme('dark')" title="Dark mode"><svg class="icons icons__background"><use href="https://100phlecs.github.io/icons.svg#darkMode"></use></svg></button>
+  </div>
+</nav>
+
+<script>
+  const setTheme = (theme) => {
+      document.documentElement.className = theme;
+      localStorage.setItem('theme', theme);
+  }
+  const getTheme = () => {
+      const theme = localStorage.getItem('theme');
+      theme && setTheme(theme);
+  }
+  getTheme()
+</script>
+      </header>
+      <main>
+        
+<div><a href="..">..</a>/<span class="metaData">custom-macos-keys</span></div>
+<time datetime="2023-09-26">Published on: <span class="metaData">2023-09-26</span></time>
+<h1>How I deal with QWERTY</h1>
+
+
+
+<p>With a bit of research you won’t be surprised to find the QWERTY layout is inefficient. A knee-jerk reaction would be to learn an alternative layout, which I did to some extent. But then one will inevitably discover all of the other inefficiencies attached to keyboard design. And the exhaustion found in “catching up” toward nowhere.</p>
+<p>I bought new keyboards, optimized my layouts further, introduced different “layers” the same way the <code>Shift</code> key is a layer for capitals. Though in the name of preventing hand injury, how the time adds up toward little profit. Here I was diligently practicing a skill I technically already had, just under new terms, for the marginal gain of typing either quicker or less strenuously. I’ve since given up (almost) entirely on the ordeal. Here is my Atreus keyboard which is collecting dust.</p>
+<figure>
+  <img src="/images/atreus.png" alt="atreus keyboard"/>
+  <figcaption>I wiped off the dust for this photo. You can see some residual between the keys.</figcaption>
+</figure>
+<p>One could critique the way in which I approached it all–I completely agree. I fell into the trap anyone does when they begin to question The Defaults: <em>the endless alternatives and the quest to find the perfect one</em>. It’s overwhelming. One may find some similarity in the equally nauseating quest of finding the “perfect” stack. </p>
+<p>If you enjoy such quests, then you have much to look forward to with computers and keyboards. But if you’re in the no-fun zone like me, or a no-fun zoner in denial (there are many), such quests only serve to frustrate and distract from more interesting stuff. Like actually writing posts or software.</p>
+<p>So as a no-fun zoner what have I settled on for my keyboard “experience”? If you are a professional pixel-pusher there’s still an underlying incentive to do something about the defaults, unless you enjoy <a rel="noopener" target="_blank" href="https://en.wikipedia.org/wiki/Repetitive_strain_injury">RSI</a>. </p>
+<p>Well, I stick with QWERTY and basic QWERTY keyboards, for one. And finally, I use <a rel="noopener" target="_blank" href="https://karabiner-elements.pqrs.org/">Karabiner Elements</a> for some quality of life modifications. More specifically, I use <a rel="noopener" target="_blank" href="https://github.com/yqrashawn/GokuRakuJoudo#gokurakujoudo">goku</a>. To this day I do not know how to write native configs for Karabiner, and I hope I never have to.</p>
+<p>There are only two essential modifications I use which I would recommend to anyone that uses Emacs keybindings. </p>
+<ol>
+<li>Map <code>Right Command</code> to <code>Control</code></li>
+<li>Map <code>Caps Lock</code> to <code>Hyper</code><sup class="footnote-reference"><a href="#1">1</a></sup></li>
+</ol>
+<p>The first modification makes it easy to use Emacs shortcuts as it’s now a thumb press. The second modification allows me to use a layer to access hard-to-reach symbols by mapping them on letter-keys, thereby reducing strain.</p>
+<p>Finally, and most importantly, I repurpose both <code>Caps Lock</code> and <code>Right Command</code> depending on the type of key press. If the keys are held, you have the above mappings.</p>
+<p>If they are tapped, however:</p>
+<ol>
+<li><code>Right Command</code> -&gt; <code>_</code></li>
+<li><code>Caps Lock</code> -&gt; <code>Esc</code></li>
+</ol>
+<p>I often program in <a rel="noopener" target="_blank" href="https://en.wikipedia.org/wiki/Snake_case">Snake case</a> languages. Pressing shift and reaching for <code>_</code> gets old and causes strain. Having easy access to underscore with a thumb press feels natural, like pressing the space bar, and has made programming far easier on me.</p>
+<figure>
+  <img src="/images/keyboard.png" alt="current keyboard"/>
+  <figcaption>My current keyboard. Chosen because it just works and is small.</figcaption>
+</figure>
+<p>A caveat to these dual-mappings is accidental mix-ups between the underscore and the control. When I write too quickly, my intended underscore may register as a Control instead, and therefore trigger an Emacs command (i.e. ctrl+a). </p>
+<p>Sometimes there are inefficiencies that you will accept because the alternatives are too complex to bother with and/or setup. This is precisely why I quit using Emacs. As well as NeoVim. I’ve forever cemented myself as a plebeian to the Config Confederation and may no longer participate in the round table of plugins. </p>
+<p>As a trade off, I only have a few conceptual dotfiles to take along with me. 
+Emacs keybindings, some key mappings, and that’s it. 
+Shouldn’t take too much to configure a new computer from scratch.</p>
+<p>It’s a central question really: <em>is customization worth the time?</em></p>
+<p>My answer: <em>in small doses.</em></p>
+<p>You have my answer, and you are entirely welcome to yours. </p>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p><code>Hyper</code> is a combination of modifier keys on MacOS. My Hyper is defined as <code>Option</code>, <code>Command</code>, and <code>Shift</code> pressed at the same time. The official <code>Hyper</code> definition includes the <code>Control</code> key too. I forgot why I removed <code>Control</code> from the definition. Vaguely recall that it was due to some conflict with native MacOS keybindings.</p>
+</div>
+
+
+<p class="tagsData">
+
+</p>
+
+      </main>
+      <footer>
+        <hr>
+<div class=footContainer>
+  <div class="footLeft">
+    <p>Licensed under <a target="_blank" rel="noopener noreferrer" href="https://fr.wikipedia.org/wiki/Licence_MIT">MIT</a><br>
+      Built with <a target="_blank" rel="noopener noreferrer" href="https://www.getzola.org">Zola</a> using <a target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/anemone">anemone</a> theme &amp; <a target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/veqev">veqev</a> colors.<br>
+    </p>
+  </div>
+  <div class="footRight">
+    <a class="icons__background" target="_blank" rel="noopener noreferrer" href="https://100phlecs.github.io/atom.xml" title="Subscribe via RSS for updates."><svg class="icons icons__background"><use href="https://100phlecs.github.io/icons.svg#rss"></use></svg></a>
+  </div>
+</div>
+      </footer>
+    </div>
+  </body>
+</html>
