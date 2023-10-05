@@ -25,9 +25,11 @@ Here are the four regex patterns the library uses to find classes:
 
 Pretty complicated...
 
-Reality is that, since the `class` attribute within a Phoenix template can hold any valid Elixir expression, this isn't sustainable. The solution is to use the Phoenix tokenizers and handle the AST representation of each `class`.
+Since the `class` attribute within a Phoenix template can hold any valid Elixir expression, one can conclude this isn't sustainable. 
 
-So I took the time and converted the library over to use the Phoenix tokenizers. It's a lot simpler, but I wouldn't entirely attribute it to the different approach. After programming in Elixir for awhile, I found some of my previous code easier to clean up.
+The solution is to use the Phoenix tokenizers and handle the AST representation of each `class`. 
+So I took the time and converted the library over to use the Phoenix tokenizers. It's a lot simpler, but I wouldn't entirely attribute it to the different approach. 
+After programming in Elixir for awhile, I found some of my previous code easier to clean up.
 
 Here's the new entry point of the plugin:
 
@@ -52,8 +54,11 @@ Here's the new entry point of the plugin:
   ```
 
 `sort_classes` goes more into the AST stuff which I won't go through. What it does is that it handles things like:
+
 ```elixir
-<div class={"grid-cols-#{@num}-custom #{if @active, do: "bg-red-50", else: "hidden"} h-6 " <> if @active, do: "font-bold"} />
+<div class={"grid-cols-#{@num}-custom bg-red-300"} /> 
+<div class={"#{if @active, do: "bg-red-50", else: "hidden"} h-10 w-full leading-5"} /> 
+<div class={"h-6 " <> if @active, do: "font-bold"} />
 ```
 
 Elixir expressions.
